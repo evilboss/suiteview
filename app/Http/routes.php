@@ -19,3 +19,7 @@ Route::get('/test', function () {
     return 'works';
 
 });
+Route::get('/camera', function () {
+    return view('camera.index');
+
+});
